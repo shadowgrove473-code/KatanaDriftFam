@@ -1,0 +1,124 @@
+< !DOCTYPE html >
+    <html lang="ru">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Katana Drift | Яркий Путь Скорости</title>
+
+            <!-- Шрифты -->
+            <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Electrolize&display=swap" rel="stylesheet">
+
+                <!-- Подключение вынесённого CSS -->
+                <link rel="stylesheet" href="/static/style.css">
+                </head>
+                <body>
+                    <div class="custom-cursor"></div>
+
+                    <header class="header">
+                        <a href="#hero" class="logo-link">
+                            <div class="logo">KATANA <span class="drift-text">DRIFT</span></div>
+                        </a>
+                        <nav>
+                            <a href="#about" class="nav-item">О НАС</a>
+                            <a href="#activity" class="nav-item">АКТИВНОСТИ</a>
+                            <a href="#leadership" class="nav-item">РУКОВОДСТВО</a>
+                            <a href="#join" class="btn-join-header">ПРИСОЕДИНИТЬСЯ</a>
+                        </nav>
+                    </header>
+
+                    <main>
+                        <section id="hero" class="hero">
+                            <div class="hero-content animate-fade-in">
+                                <h1>
+                                    <span class="text-highlight">ТВОЙ ПУТЬ</span>
+                                    К ЯРКОЙ <span class="drift-text">СКОРОСТИ</span>.
+                                </h1>
+                                <p class="slogan-sub">Мы - семья, где каждый занос - это искусство, а каждая гонка - праздник. Присоединяйся к потоку!</p>
+                                <a href="#about" class="btn-primary btn-large animate-pop-in">УЗНАТЬ БОЛЬШЕ</a>
+                            </div>
+                            <div class="hero-overlay"></div>
+                        </section>
+
+                        <section id="about" class="section">
+                            <h2 class="section-title animate-slide-up">🌸 НАША ФИЛОСОФИЯ (ИКИГАЙ СКОРОСТИ)</h2>
+                            <div class="about-grid">
+                                <div class="content-text animate-slide-left hidden">
+                                    <h3>ПУТЬ КИБЕР-ДРИФТА</h3>
+                                    <p>Katana Drift — это не просто клуб, это <strong>СИНТЕЗ</strong> человека и машины. Мы видим красоту в каждом повороте, в каждом облаке дыма от шин. Для нас <strong>дрифт — это свобода</strong>, а семья — это поддержка в каждом вызове. Мы ценим радость от побед и дружбу на долгом пути.</p>
+                                    <p>Наша цель — не только побеждать, но и наслаждаться каждым моментом на дороге, делясь этим удовольствием со своей семьёй.</p>
+                                </div>
+                                <div class="content-values animate-slide-right hidden">
+                                    <h3>НАШИ ЦЕННОСТИ (ПЯТЬ ЛЕПЕСТКОВ)</h3>
+                                    <ul>
+                                        <li><span class="text-highlight">РАДОСТЬ (YOROKOBI):</span> Наслаждение каждым моментом на трассе и в жизни.</li>
+                                        <li><span class="text-highlight">МАСТЕРСТВО (TAKUMI):</span> Постоянное совершенствование навыков дрифта.</li>
+                                        <li><span class="text-highlight">ДРУЖБА (YUUJOU):</span> Сплоченность и поддержка внутри семьи.</li>
+                                        <li><span class="text-highlight">СТИЛЬ (KEISHIKI):</span> Уникальный вид автомобилей и эстетика во всём.</li>
+                                        <li><span class="text-highlight">ЧЕСТЬ (MEIYO):</span> Уважение к соперникам и соблюдение правил.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="activity" class="section">
+                            <h2 class="section-title animate-slide-up hidden">✨ НАШИ АКТИВНОСТИ (ПОТОК АДРЕНАЛИНА)</h2>
+
+                            <div class="activity-grid">
+                                <div class="activity-card animate-pop-in-delay1 hidden">
+                                    <h3><span class="activity-num">01.</span> ТАЙНЫЕ ПОРУЧЕНИЯ (KUROSHIGOTO)</h3>
+                                    <p>Выполнение конфиденциальных контрактов, требующих мастерства и бесшумности. <strong>Эти поручения — наше "Черное Дело"</strong>, и они всегда должны быть выполнены с честью и абсолютной точностью.</p>
+                                </div>
+
+                                <div class="activity-card animate-pop-in-delay2 hidden">
+                                    <h3><span class="activity-num">02.</span> СЕМЕЙНЫЕ СБОРЫ (KAZOKU NO JIKAN)</h3>
+                                    <p>Обязательные мероприятия для укрепления уз клана: совместные тренировки, церемониальные заезды и дрифт-шоу. Это время, когда мы показываем свое единство на асфальте.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="leadership" class="section">
+                            <h2 class="section-title animate-slide-up hidden">🌸 РУКОВОДСТВО СЕМЬИ (ЦВЕТЫ САКУРЫ)</h2>
+
+                            <div class="leadership-grid">
+                                <!-- карточки руководства (оставлены ваши URL-ы) -->
+                                <div class="leader-card animate-pop-in-delay1 hidden">
+                                    <img src="https://masterpiecer-images.s3.yandex.net/5398ba0aa57d11ee8f3922d0c3bbf3a3:upscaled" alt="Основатель Kotec" class="leader-img">
+                                        <h3 class="role-title">ОЯБУН (OYABUN)</h3>
+                                        <p class="role-name">Kotec</p>
+                                        <p class="role-desc">Основатель Клана. Его слово — это закон.</p>
+                                </div>
+
+                                <div class="leader-card animate-pop-in-delay2 hidden">
+                                    <img src="https://i.pinimg.com/736x/81/78/ca/8178caca7b5aa4834a11f39ce07cefea.jpg" alt="Лидер Rim" class="leader-img">
+                                        <h3 class="role-title">ЛИДЕР (SAIKO KOMON)</h3>
+                                        <p class="role-name">Rim</p>
+                                        <p class="role-desc">Стратег клана, отвечает за крупные гонки.</p>
+                                </div>
+
+                                <div class="leader-card animate-pop-in-delay3 hidden">
+                                    <img src="https://masterpiecer-images.s3.yandex.net/a7283e5c423011ee95074659bdca6a39:upscaled" alt="Заместитель Jane" class="leader-img">
+                                        <h3 class="role-title">ЗАМЕСТИТЕЛЬ (WAKAGASHIRA)</h3>
+                                        <p class="role-name">Jane</p>
+                                        <p class="role-desc">Организация тренировок и соблюдение кодекса.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="join" class="section contact-area">
+                            <h2 class="section-title animate-slide-up hidden">💫 ПРИСОЕДИНИТЬСЯ К ПОТОКУ!</h2>
+                            <p class="animate-fade-in-delay4 hidden">Если ты чувствуешь ритм дороги и ценишь дружбу, Katana Drift ждет тебя.</p>
+                            <a href="https://discord.gg/katanadrift" class="btn-primary btn-large animate-pop-in-delay5 hidden">ЗАГРУЗИТЬСЯ В DISCORD!</a>
+                            <p class="contact-info animate-fade-in-delay6 hidden">Связь для важных вопросов:
+                                <span class="text-highlight selectable-text">[НОМЕР ТЕЛЕФОНА В ИГРЕ]</span>
+                            </p>
+                        </section>
+                    </main>
+
+                    <footer>
+                        <p>&copy; 2025 Katana Drift. Наслаждайся каждым моментом! | <a href="#hero">ВВЕРХ</a></p>
+                    </footer>
+
+                    <!-- Подключение вынесённого JS -->
+                    <script src="/static/site.js"></script>
+                </body>
+            </html>
